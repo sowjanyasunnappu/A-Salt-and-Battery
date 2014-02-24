@@ -36,7 +36,7 @@ h3 {
 /* ---- HEADER ------  */
 
 header {
-	background: #d4475c url('../images/headerbackground.jpg') no-repeat; 
+	background: #d4475c url('../images/headerbackground.jpg') center center no-repeat;
 	width: 100%;
 	height: 720px;
 }
@@ -151,6 +151,7 @@ ul#menu_items {
 
 ul#menu_items li {
 	margin: 0 0 12px 0;
+	color: #fff;
 }
 
 section#menu h2 {
