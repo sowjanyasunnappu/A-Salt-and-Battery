@@ -1,0 +1,187 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+
+body {
+	  font:18px "Duru Sans","Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+	font: 18px "Krona One",Geneva, Tahoma, Verdana, sans-serif;
+	text-align: center;
+	color: #fff;
+}
+
+h2 {
+	font: 36px "Krona One",Geneva, Tahoma, Verdana, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #5dcdb5;
+}
+
+h3 {
+	font: 24px "Krona One",Geneva, Tahoma, Verdana, sans-serif;
+	text-transform: uppercase;
+	color: #fafafa;
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+/* ---- HEADER ------  */
+
+header {
+	background: #d4475c url('../images/headerbackground.jpg') no-repeat; 
+	width: 100%;
+	height: 720px;
+}
+
+.left_header {
+	width: 478px;
+	float: left;
+}
+
+.left_header img {
+	margin: 48px 0 0 70px;
+}
+
+.right_header {
+	width:602px;
+	float: left;
+	padding-top: 244px;
+	padding-right: 60px; 
+}
+
+/* ---- NAV ------  */
+
+nav {
+	background: rgba(2,2,2,0.3);
+	height: 140px;
+}
+
+#logo {
+	background-image: url('../images/logo.png'); 
+	width: 252px;
+	height: 92px;
+	float: left;
+	margin-top: 25px;
+}
+
+ul#topnav {
+	font-family: "Krona One",Geneva, Tahoma, Verdana, sans-serif;
+	float: right;
+	margin-top: 65px;
+}
+
+ul#topnav li {
+ 	display: inline;
+ 	margin-left: 60px;
+ }
+
+ul#topnav li a {
+ 	text-decoration: none;
+ 	color: #fff;
+ }
+
+ ul#topnav li a:hover {
+ 	color: #d57786;
+ }
+
+/* ---- ABOUT ------  */
+
+ section#about {
+ 	background-color: #fafafa;
+ 	width: 100%;
+ 	padding: 92px 0px 83px 0px;
+	float: left;
+	min-height: 755px;
+}
+
+ .left_about {
+ 	width: 675px;
+ 	float: left;
+ }
+
+ .left_about p {
+ 	width: 659px;
+ }
+
+ blockquote {
+ 	font: 23px "Krona One",Geneva, Tahoma, Verdana, sans-serif;
+ 	margin: 36px 0 0 0;
+ 	color: #252525;
+ }
+
+ blockquote cite {
+ 	font-size: 18px;
+ 	margin: 12px 0 0 0;
+ 	font-style: normal;
+ }
+
+.left_about blockquote p {
+	width: 100%;
+}
+
+.right_about {
+	width:405px;
+	float: right;
+}
+
+/* ---- MENU ------  */
+
+section#menu {
+	background: #6cd1bb url('../images/menu.jpg');
+	width: 100%;
+	height: 471px;
+	padding: 70px 0 0 0;
+	float: left;
+}
+
+ul#menu_items {
+	text-align: center;
+	display: inline-block;
+	width: 355px;
+	vertical-align: top;
+}
+
+ul#menu_items li {
+	margin: 0 0 12px 0;
+}
+
+section#menu h2 {
+	color: #f95971;
+}
+
+/* ---- FOOTER ------  */
+
+footer {
+	width: 100%;
+	height: 280px;
+	background: #252525;
+	padding-top: 45px;
+	float: left;
+	color: #fff;
+}
+
+.left_footer {
+	float: left;
+}
+
+.left_footer ul li#contact {
+	margin-top: 28px;
+}
+
+.right_footer {
+	float: right;
+}
+
+
+
+
+
+
